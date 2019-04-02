@@ -6,7 +6,8 @@ def mostrar(x):
    
     for i in range(len(x[0]) - 2 ,-1,-1):
         print(x[len(x)-1][i])
-   
+   for i in range(len(x[0]) - 2 ,0,-1):
+        print(x[i][0])
 
 def suma_fila(fila):
     if fila==[]:
